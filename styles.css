@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box; }
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline; }
+  .upload-container .upload-btn {
+    cursor: pointer; }
+  .upload-container .upload-input {
+    display: none; }
+
+.images-container .uploaded-img {
+  width: 25mm; }
+
+.result .canvas {
+  border: 2px solid deepskyblue; }
