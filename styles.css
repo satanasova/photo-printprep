@@ -7,7 +7,18 @@
   justify-content: space-between; }
   .upload-container .upload-btn {
     cursor: pointer;
-    white-space: nowrap; }
+    margin-right: 5px;
+    white-space: nowrap;
+    display: block;
+    text-decoration: none;
+    border: none;
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #13AA52;
+    touch-action: manipulation;
+    outline: 0; }
   .upload-container .upload-input {
     display: none; }
 
@@ -19,10 +30,8 @@
   padding: 6px 14px;
   font-family: 'Roboto', sans-serif;
   border-radius: 6px;
-  border: none;
   color: #fff;
   background-color: #367AF6;
-  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
   touch-action: manipulation;
   outline: 0; }
 
@@ -33,4 +42,4 @@
   margin-top: 20px; }
   .result .canvas {
     max-width: 100%;
-    border: 2px solid deepskyblue; }
+    border: 2px solid #367AF6; }
