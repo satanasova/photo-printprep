@@ -61,9 +61,9 @@ function drawCanvas() {
 
   
     // ctx.drawImage(photoToCrop, sx , sy , frame.offsetWidth / photoRatio, frame.offsetHeight / photoRatio , 0, 0, frame.offsetWidth , frame.offsetHeight)
-    ctx.drawImage(images[0], 0, 0, images[0].naturalWidth, images[0].naturalHeight, 0, 0, canvas.width / 2 , canvas.height / 3);
-    ctx.drawImage(images[1], 0, 0, images[1].naturalWidth, images[1].naturalHeight,  canvas.width / 2, canvas.height * 0.33, canvas.width / 2 , canvas.height / 3);
-    ctx.drawImage(images[2], 0, 0, images[2].naturalWidth, images[2].naturalHeight,  0, canvas.height * 0.66, canvas.width / 2 , canvas.height / 3);
+    ctx.drawImage(images[0], 0, 0, images[0].naturalWidth, images[0].naturalHeight, canvas.width * 0.03, canvas.height * 0.02, canvas.width / 2 , canvas.height / 3);
+    ctx.drawImage(images[1], 0, 0, images[1].naturalWidth, images[1].naturalHeight,  canvas.width / 2 - canvas.width * 0.03, canvas.height * 0.33, canvas.width / 2 , canvas.height / 3);
+    ctx.drawImage(images[2], 0, 0, images[2].naturalWidth, images[2].naturalHeight,  canvas.width * 0.03, canvas.height * 0.66 -  canvas.height * 0.02, canvas.width / 2 , canvas.height / 3);
 
     console.log(canvas.width, images[2]);
   }, 1000);
